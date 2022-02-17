@@ -62,3 +62,6 @@ str(combine_datasetextractupd2tb)
 tidy_dataset<-combine_datasetextractupd2tb %>%
   group_by(Volunteer_ID,Activity) %>%
   summarise(across(where(is.numeric),~mean(.x,na.rm= TRUE)))
+
+# Saving tidy data set to my working directory
+write.csv(tidy_dataset,file = "tidy_dataset.csv", row.names = FALSE)
