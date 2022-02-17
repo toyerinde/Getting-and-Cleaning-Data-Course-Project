@@ -17,7 +17,7 @@ Section 7: Code in this section saves the tidy data set generated to the working
 
 
 # CodeBook.md
-This is the code book that describes the variables, the data, and any transformations or work that was performed to clean up the raw data. This file contains the mapping between the descriptive names assigned to the dataframes columns generated with the run_analysis.R script and the features names in features.txt file in the raw dataset.
+This is the code book that describes the variables, the data, and any transformations or work that was performed to clean up the raw data. This file contains the mapping between the descriptive names assigned to the dataframes columns and rows generated with the run_analysis.R script and the features names in features.txt  and activity_labels.txt files in the raw dataset.
 
 # tidy_dataset.csv
 CSV file containing the tidy data set generated with the run_analysis.R script.
